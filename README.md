@@ -1,5 +1,5 @@
 ## Introduction
-This repository contains examples of the nginx configuration files that I used to set up my reverse proxy. This proxy hides everything behind it, the Pterodactyl panel, the node servers and the game services themselves. It should be noted that I'm no expert, I can't guarantee this will work for you as I have not tested them thoroughly.
+This repository contains examples of the nginx configuration files that I used to set up my reverse proxy. This proxy hides everything behind it, the Pterodactyl panel, the node servers and the game services. It should be noted that I'm no expert, I can't guarantee this will work for you as I have not tested them thoroughly.
 
 **You should make sure you backup your nginx before modifying it** `zip -r /etc/nginx.zip /etc/nginx`
 
