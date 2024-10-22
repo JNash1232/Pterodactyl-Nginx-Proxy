@@ -1,8 +1,10 @@
 ## Introduction
 This repository contains examples of the nginx configuration files that I used to set up my reverse proxy. This proxy hides everything behind it, the Pterodactyl panel, the node servers and the game services themselves. It should be noted that I'm no expert, I can't guarantee this will work for you as I have not tested them thoroughly.
 
+**You should make sure you backup your nginx before modifying it** `zip -r /etc/nginx.zip /etc/nginx`
+
 ## My server design
-You should probably be aware of how my servers are configured for this to make the most sense to you. Each service is its own virtual machine.
+You should probably be aware of how my servers are configured for this to make the most sense to you. Each service is its own virtual machine running ubuntu server.
 - Opnsense Router           -       IP 172.16.0.1
 - Nginx Proxy Server        -       IP 172.16.0.100
 - Pterodactyl Panel Server  -       IP 172.16.0.101
